@@ -1,0 +1,14 @@
+<h1>New Life Animal Rescue</h1>
+<ul>
+    {{#each petList}}
+    <li>
+        <h2>{{name}}</h2>
+        <br>
+        <img src="{{imageUrl}}">
+        <br>
+         <a href="/pets/{{id}}" class="button">View Details</a>
+    </li>
+    {{/each}}
+</ul>
+<a href="/pets/new" class="button">Add New Item</a>
+<p>Contact us at contact@nlanimalrescue.com if you would like more details</p>

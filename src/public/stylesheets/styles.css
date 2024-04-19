@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(178, 224, 255, 1);
+    font-family: "Titillium Web", sans-serif;
+}
+
+.page {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+a.button {
+    color: #ffffff;
+    background-color: #6f96df;
+    border: 1px solid #2d63c8;
+    border-radius: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+a.button:hover {
+    color: #2d63c8;
+    background-color: #ffffff;
+}
+
